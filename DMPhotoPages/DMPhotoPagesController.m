@@ -469,7 +469,13 @@ static NSString *kActionSheetIndexKey= @"actionSheetTargetIndex";
     UIToolbar *toolbar = [self.photoPagesFactory  upperToolbarForPhotoPagesController:self];
     [self.view addSubview:toolbar];
     [toolbar setTranslatesAutoresizingMaskIntoConstraints:false];
-    [[[toolbar topAnchor] constraintEqualToAnchor:[[self.view safeAreaLayoutGuide] topAnchor]] setActive:true];
+    
+    if (@available(iOS 11.0, *)) {
+        [[[toolbar topAnchor] constraintEqualToAnchor:[[self.view safeAreaLayoutGuide] topAnchor]] setActive:true];
+    } else {
+        [[[toolbar topAnchor] constraintEqualToAnchor:[self.view topAnchor]] setActive:true];
+    }
+    
     [[[toolbar leadingAnchor] constraintEqualToAnchor:[self.view leadingAnchor]] setActive:true];
     [[[toolbar trailingAnchor] constraintEqualToAnchor:[self.view trailingAnchor]] setActive:true];
     [self setUpperToolbar:toolbar];
@@ -480,7 +486,13 @@ static NSString *kActionSheetIndexKey= @"actionSheetTargetIndex";
     UIToolbar *toolbar = [self.photoPagesFactory  lowerToolbarForPhotoPagesController:self];
     [self.view addSubview:toolbar];
     [toolbar setTranslatesAutoresizingMaskIntoConstraints:false];
-    [[[toolbar bottomAnchor] constraintEqualToAnchor:[[self.view safeAreaLayoutGuide] bottomAnchor]] setActive:true];
+    
+    if (@available(iOS 11.0, *)) {
+        [[[toolbar bottomAnchor] constraintEqualToAnchor:[[self.view safeAreaLayoutGuide] bottomAnchor]] setActive:true];
+    } else {
+        [[[toolbar bottomAnchor] constraintEqualToAnchor:[self.view bottomAnchor]] setActive:true];
+    }
+    
     [[[toolbar leadingAnchor] constraintEqualToAnchor:[self.view leadingAnchor]] setActive:true];
     [[[toolbar trailingAnchor] constraintEqualToAnchor:[self.view trailingAnchor]] setActive:true];
     [self setLowerToolbar:toolbar];
