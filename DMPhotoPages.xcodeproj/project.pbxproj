@@ -8,12 +8,121 @@
 
 /* Begin PBXBuildFile section */
 		8062BD8C216E7B0C00064884 /* DMPhotoPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD8A216E7B0C00064884 /* DMPhotoPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDB5216E7BE100064884 /* DMCommentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD92216E7BDD00064884 /* DMCommentsTableView.m */; };
+		8062BDB6216E7BE100064884 /* DMPhotoTagProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD93216E7BDD00064884 /* DMPhotoTagProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDB7216E7BE100064884 /* DMPhotoPagesDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD94216E7BDD00064884 /* DMPhotoPagesDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDB8216E7BE100064884 /* DMPhotoToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD95216E7BDD00064884 /* DMPhotoToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDB9216E7BE100064884 /* DMCommentsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD96216E7BDD00064884 /* DMCommentsTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDBA216E7BE100064884 /* DMPhotoPagesNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD97216E7BDD00064884 /* DMPhotoPagesNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDBB216E7BE100064884 /* DMCommentsViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD98216E7BDD00064884 /* DMCommentsViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDBC216E7BE100064884 /* DMPhotoPagesOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD99216E7BDD00064884 /* DMPhotoPagesOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDBD216E7BE100064884 /* DMPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD9A216E7BDE00064884 /* DMPhotoViewController.m */; };
+		8062BDBE216E7BE100064884 /* DMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD9B216E7BDE00064884 /* DMCaptionView.m */; };
+		8062BDBF216E7BE100064884 /* DMPhotoPagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BD9C216E7BDE00064884 /* DMPhotoPagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDC0216E7BE100064884 /* DMCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD9D216E7BDE00064884 /* DMCommentCell.m */; };
+		8062BDC1216E7BE100064884 /* DMCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD9E216E7BDE00064884 /* DMCommentsView.m */; };
+		8062BDC2216E7BE100064884 /* DMPhotoPagesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BD9F216E7BDE00064884 /* DMPhotoPagesOperation.m */; };
+		8062BDC3216E7BE100064884 /* DMPhotoPagesFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA0216E7BDE00064884 /* DMPhotoPagesFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDC4216E7BE100064884 /* DMPhotoPagesStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA1216E7BDE00064884 /* DMPhotoPagesStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDC5216E7BE100064884 /* DMPhotoPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDA2216E7BDE00064884 /* DMPhotoPagesController.m */; };
+		8062BDC6216E7BE100064884 /* DMShadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA3216E7BDE00064884 /* DMShadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDC7216E7BE100064884 /* DMTagPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDA4216E7BDE00064884 /* DMTagPopover.m */; };
+		8062BDC8216E7BE100064884 /* DMPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDA5216E7BDF00064884 /* DMPhotoView.m */; };
+		8062BDC9216E7BE100064884 /* DMCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA6216E7BDF00064884 /* DMCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDCA216E7BE100064884 /* DMPhotoCommentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA7216E7BDF00064884 /* DMPhotoCommentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDCB216E7BE100064884 /* DMTagPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA8216E7BDF00064884 /* DMTagPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDCC216E7BE100064884 /* DMTagPopoverDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDA9216E7BDF00064884 /* DMTagPopoverDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDCD216E7BE100064884 /* DMPhotoPagesState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDAA216E7BDF00064884 /* DMPhotoPagesState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDCE216E7BE100064884 /* DMPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDAB216E7BDF00064884 /* DMPhotoToolbar.m */; };
+		8062BDCF216E7BE100064884 /* DMPhotoPagesState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDAC216E7BDF00064884 /* DMPhotoPagesState.m */; };
+		8062BDD0216E7BE100064884 /* DMPhotoPagesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDAD216E7BDF00064884 /* DMPhotoPagesFactory.m */; };
+		8062BDD1216E7BE100064884 /* DMPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDAE216E7BE000064884 /* DMPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDD2216E7BE100064884 /* DMCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDAF216E7BE000064884 /* DMCommentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDD3216E7BE100064884 /* DMShadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDB0216E7BE000064884 /* DMShadedView.m */; };
+		8062BDD4216E7BE100064884 /* DMPhotoPagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDB1216E7BE000064884 /* DMPhotoPagesDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDD5216E7BE100064884 /* DMPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDB2216E7BE000064884 /* DMPhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDD6216E7BE100064884 /* DMPhotoViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDB3216E7BE000064884 /* DMPhotoViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDD7216E7BE100064884 /* DMCommentsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8062BDB4216E7BE000064884 /* DMCommentsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8062BDF7216E846F00064884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDF6216E846F00064884 /* main.m */; };
+		8062BE08216E861300064884 /* DEMOTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDFB216E861200064884 /* DEMOTag.m */; };
+		8062BE09216E861300064884 /* DEMOComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDFC216E861200064884 /* DEMOComment.m */; };
+		8062BE0A216E861300064884 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8062BDFD216E861200064884 /* ViewController_iPhone.xib */; };
+		8062BE0B216E861300064884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BDFF216E861200064884 /* AppDelegate.m */; };
+		8062BE0C216E861300064884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BE00216E861200064884 /* ViewController.m */; };
+		8062BE0D216E861300064884 /* DEMOPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8062BE04216E861300064884 /* DEMOPhoto.m */; };
+		8062BE0E216E861300064884 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8062BE05216E861300064884 /* Images.xcassets */; };
+		8062BE0F216E861300064884 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8062BE07216E861300064884 /* ViewController_iPad.xib */; };
+		8062BE13216E89E100064884 /* DMPhotoPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8062BD87216E7B0C00064884 /* DMPhotoPages.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8062BE10216E89DB00064884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8062BD7E216E7B0C00064884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8062BD86216E7B0C00064884;
+			remoteInfo = DMPhotoPages;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8062BD87216E7B0C00064884 /* DMPhotoPages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMPhotoPages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8062BD8A216E7B0C00064884 /* DMPhotoPages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMPhotoPages.h; sourceTree = "<group>"; };
 		8062BD8B216E7B0C00064884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8062BD92216E7BDD00064884 /* DMCommentsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCommentsTableView.m; sourceTree = "<group>"; };
+		8062BD93216E7BDD00064884 /* DMPhotoTagProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoTagProtocol.h; sourceTree = "<group>"; };
+		8062BD94216E7BDD00064884 /* DMPhotoPagesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesDelegate.h; sourceTree = "<group>"; };
+		8062BD95216E7BDD00064884 /* DMPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoToolbar.h; sourceTree = "<group>"; };
+		8062BD96216E7BDD00064884 /* DMCommentsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCommentsTableView.h; sourceTree = "<group>"; };
+		8062BD97216E7BDD00064884 /* DMPhotoPagesNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesNotifications.h; sourceTree = "<group>"; };
+		8062BD98216E7BDD00064884 /* DMCommentsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCommentsViewDelegate.h; sourceTree = "<group>"; };
+		8062BD99216E7BDD00064884 /* DMPhotoPagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesOperation.h; sourceTree = "<group>"; };
+		8062BD9A216E7BDE00064884 /* DMPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoViewController.m; sourceTree = "<group>"; };
+		8062BD9B216E7BDE00064884 /* DMCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCaptionView.m; sourceTree = "<group>"; };
+		8062BD9C216E7BDE00064884 /* DMPhotoPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesController.h; sourceTree = "<group>"; };
+		8062BD9D216E7BDE00064884 /* DMCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCommentCell.m; sourceTree = "<group>"; };
+		8062BD9E216E7BDE00064884 /* DMCommentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCommentsView.m; sourceTree = "<group>"; };
+		8062BD9F216E7BDE00064884 /* DMPhotoPagesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoPagesOperation.m; sourceTree = "<group>"; };
+		8062BDA0216E7BDE00064884 /* DMPhotoPagesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesFactory.h; sourceTree = "<group>"; };
+		8062BDA1216E7BDE00064884 /* DMPhotoPagesStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesStateDelegate.h; sourceTree = "<group>"; };
+		8062BDA2216E7BDE00064884 /* DMPhotoPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoPagesController.m; sourceTree = "<group>"; };
+		8062BDA3216E7BDE00064884 /* DMShadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMShadedView.h; sourceTree = "<group>"; };
+		8062BDA4216E7BDE00064884 /* DMTagPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTagPopover.m; sourceTree = "<group>"; };
+		8062BDA5216E7BDF00064884 /* DMPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoView.m; sourceTree = "<group>"; };
+		8062BDA6216E7BDF00064884 /* DMCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCaptionView.h; sourceTree = "<group>"; };
+		8062BDA7216E7BDF00064884 /* DMPhotoCommentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoCommentProtocol.h; sourceTree = "<group>"; };
+		8062BDA8216E7BDF00064884 /* DMTagPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTagPopover.h; sourceTree = "<group>"; };
+		8062BDA9216E7BDF00064884 /* DMTagPopoverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTagPopoverDelegate.h; sourceTree = "<group>"; };
+		8062BDAA216E7BDF00064884 /* DMPhotoPagesState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesState.h; sourceTree = "<group>"; };
+		8062BDAB216E7BDF00064884 /* DMPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoToolbar.m; sourceTree = "<group>"; };
+		8062BDAC216E7BDF00064884 /* DMPhotoPagesState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoPagesState.m; sourceTree = "<group>"; };
+		8062BDAD216E7BDF00064884 /* DMPhotoPagesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoPagesFactory.m; sourceTree = "<group>"; };
+		8062BDAE216E7BE000064884 /* DMPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoViewController.h; sourceTree = "<group>"; };
+		8062BDAF216E7BE000064884 /* DMCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCommentCell.h; sourceTree = "<group>"; };
+		8062BDB0216E7BE000064884 /* DMShadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMShadedView.m; sourceTree = "<group>"; };
+		8062BDB1216E7BE000064884 /* DMPhotoPagesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoPagesDataSource.h; sourceTree = "<group>"; };
+		8062BDB2216E7BE000064884 /* DMPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoView.h; sourceTree = "<group>"; };
+		8062BDB3216E7BE000064884 /* DMPhotoViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoViewControllerDelegate.h; sourceTree = "<group>"; };
+		8062BDB4216E7BE000064884 /* DMCommentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCommentsView.h; sourceTree = "<group>"; };
+		8062BDE5216E846D00064884 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8062BDF5216E846F00064884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8062BDF6216E846F00064884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8062BDFB216E861200064884 /* DEMOTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOTag.m; sourceTree = "<group>"; };
+		8062BDFC216E861200064884 /* DEMOComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOComment.m; sourceTree = "<group>"; };
+		8062BDFD216E861200064884 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8062BDFE216E861200064884 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8062BDFF216E861200064884 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8062BE00216E861200064884 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8062BE01216E861200064884 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8062BE02216E861200064884 /* DEMOComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOComment.h; sourceTree = "<group>"; };
+		8062BE03216E861200064884 /* DEMOPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOPhoto.h; sourceTree = "<group>"; };
+		8062BE04216E861300064884 /* DEMOPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOPhoto.m; sourceTree = "<group>"; };
+		8062BE05216E861300064884 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8062BE06216E861300064884 /* DEMOTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOTag.h; sourceTree = "<group>"; };
+		8062BE07216E861300064884 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		8062BE15216E953D00064884 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		8062BE16216E953D00064884 /* DMPhotoPages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DMPhotoPages.podspec; sourceTree = "<group>"; };
+		8062BE17216E953D00064884 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,14 +133,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8062BDE2216E846D00064884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8062BE13216E89E100064884 /* DMPhotoPages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8062BD7D216E7B0C00064884 = {
 			isa = PBXGroup;
 			children = (
+				8062BE14216E952600064884 /* Metadata */,
 				8062BD89216E7B0C00064884 /* DMPhotoPages */,
+				8062BDE6216E846D00064884 /* Example */,
 				8062BD88216E7B0C00064884 /* Products */,
+				8062BE12216E89E100064884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				8062BD87216E7B0C00064884 /* DMPhotoPages.framework */,
+				8062BDE5216E846D00064884 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +168,155 @@
 			isa = PBXGroup;
 			children = (
 				8062BD8A216E7B0C00064884 /* DMPhotoPages.h */,
+				8062BDDA216E7C8F00064884 /* PhotoPages */,
+				8062BDDF216E7D4600064884 /* PhotoView */,
+				8062BDD8216E7C6A00064884 /* Caption */,
+				8062BDD9216E7C7D00064884 /* Comment */,
+				8062BDDE216E7D3000064884 /* Tag */,
 				8062BD8B216E7B0C00064884 /* Info.plist */,
 			);
 			path = DMPhotoPages;
+			sourceTree = "<group>";
+		};
+		8062BDD8216E7C6A00064884 /* Caption */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDA6216E7BDF00064884 /* DMCaptionView.h */,
+				8062BD9B216E7BDE00064884 /* DMCaptionView.m */,
+			);
+			name = Caption;
+			sourceTree = "<group>";
+		};
+		8062BDD9216E7C7D00064884 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDA7216E7BDF00064884 /* DMPhotoCommentProtocol.h */,
+				8062BDAF216E7BE000064884 /* DMCommentCell.h */,
+				8062BD9D216E7BDE00064884 /* DMCommentCell.m */,
+				8062BD96216E7BDD00064884 /* DMCommentsTableView.h */,
+				8062BD92216E7BDD00064884 /* DMCommentsTableView.m */,
+				8062BDB4216E7BE000064884 /* DMCommentsView.h */,
+				8062BD9E216E7BDE00064884 /* DMCommentsView.m */,
+				8062BD98216E7BDD00064884 /* DMCommentsViewDelegate.h */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		8062BDDA216E7C8F00064884 /* PhotoPages */ = {
+			isa = PBXGroup;
+			children = (
+				8062BD9C216E7BDE00064884 /* DMPhotoPagesController.h */,
+				8062BDA2216E7BDE00064884 /* DMPhotoPagesController.m */,
+				8062BDB1216E7BE000064884 /* DMPhotoPagesDataSource.h */,
+				8062BD94216E7BDD00064884 /* DMPhotoPagesDelegate.h */,
+				8062BDDD216E7D0B00064884 /* Factory */,
+				8062BDE0216E7E0700064884 /* Views */,
+				8062BDDC216E7CF600064884 /* State */,
+				8062BDDB216E7CD400064884 /* Helpers */,
+			);
+			name = PhotoPages;
+			sourceTree = "<group>";
+		};
+		8062BDDB216E7CD400064884 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8062BD97216E7BDD00064884 /* DMPhotoPagesNotifications.h */,
+				8062BD99216E7BDD00064884 /* DMPhotoPagesOperation.h */,
+				8062BD9F216E7BDE00064884 /* DMPhotoPagesOperation.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8062BDDC216E7CF600064884 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDAA216E7BDF00064884 /* DMPhotoPagesState.h */,
+				8062BDAC216E7BDF00064884 /* DMPhotoPagesState.m */,
+				8062BDA1216E7BDE00064884 /* DMPhotoPagesStateDelegate.h */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		8062BDDD216E7D0B00064884 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDA0216E7BDE00064884 /* DMPhotoPagesFactory.h */,
+				8062BDAD216E7BDF00064884 /* DMPhotoPagesFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		8062BDDE216E7D3000064884 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				8062BD93216E7BDD00064884 /* DMPhotoTagProtocol.h */,
+				8062BDA8216E7BDF00064884 /* DMTagPopover.h */,
+				8062BDA4216E7BDE00064884 /* DMTagPopover.m */,
+				8062BDA9216E7BDF00064884 /* DMTagPopoverDelegate.h */,
+			);
+			name = Tag;
+			sourceTree = "<group>";
+		};
+		8062BDDF216E7D4600064884 /* PhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDB2216E7BE000064884 /* DMPhotoView.h */,
+				8062BDA5216E7BDF00064884 /* DMPhotoView.m */,
+				8062BDAE216E7BE000064884 /* DMPhotoViewController.h */,
+				8062BD9A216E7BDE00064884 /* DMPhotoViewController.m */,
+				8062BDB3216E7BE000064884 /* DMPhotoViewControllerDelegate.h */,
+			);
+			name = PhotoView;
+			sourceTree = "<group>";
+		};
+		8062BDE0216E7E0700064884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8062BD95216E7BDD00064884 /* DMPhotoToolbar.h */,
+				8062BDAB216E7BDF00064884 /* DMPhotoToolbar.m */,
+				8062BDA3216E7BDE00064884 /* DMShadedView.h */,
+				8062BDB0216E7BE000064884 /* DMShadedView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8062BDE6216E846D00064884 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8062BDFE216E861200064884 /* AppDelegate.h */,
+				8062BDFF216E861200064884 /* AppDelegate.m */,
+				8062BE01216E861200064884 /* ViewController.h */,
+				8062BE00216E861200064884 /* ViewController.m */,
+				8062BE02216E861200064884 /* DEMOComment.h */,
+				8062BDFC216E861200064884 /* DEMOComment.m */,
+				8062BE03216E861200064884 /* DEMOPhoto.h */,
+				8062BE04216E861300064884 /* DEMOPhoto.m */,
+				8062BE06216E861300064884 /* DEMOTag.h */,
+				8062BDFB216E861200064884 /* DEMOTag.m */,
+				8062BE07216E861300064884 /* ViewController_iPad.xib */,
+				8062BDFD216E861200064884 /* ViewController_iPhone.xib */,
+				8062BE05216E861300064884 /* Images.xcassets */,
+				8062BDF5216E846F00064884 /* Info.plist */,
+				8062BDF6216E846F00064884 /* main.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		8062BE12216E89E100064884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8062BE14216E952600064884 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8062BE16216E953D00064884 /* DMPhotoPages.podspec */,
+				8062BE15216E953D00064884 /* LICENSE.md */,
+				8062BE17216E953D00064884 /* README.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +326,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8062BDCD216E7BE100064884 /* DMPhotoPagesState.h in Headers */,
+				8062BDCB216E7BE100064884 /* DMTagPopover.h in Headers */,
+				8062BDC4216E7BE100064884 /* DMPhotoPagesStateDelegate.h in Headers */,
+				8062BDD2216E7BE100064884 /* DMCommentCell.h in Headers */,
+				8062BDD4216E7BE100064884 /* DMPhotoPagesDataSource.h in Headers */,
+				8062BDB8216E7BE100064884 /* DMPhotoToolbar.h in Headers */,
+				8062BDBC216E7BE100064884 /* DMPhotoPagesOperation.h in Headers */,
+				8062BDC3216E7BE100064884 /* DMPhotoPagesFactory.h in Headers */,
+				8062BDB7216E7BE100064884 /* DMPhotoPagesDelegate.h in Headers */,
+				8062BDC6216E7BE100064884 /* DMShadedView.h in Headers */,
 				8062BD8C216E7B0C00064884 /* DMPhotoPages.h in Headers */,
+				8062BDC9216E7BE100064884 /* DMCaptionView.h in Headers */,
+				8062BDD6216E7BE100064884 /* DMPhotoViewControllerDelegate.h in Headers */,
+				8062BDD7216E7BE100064884 /* DMCommentsView.h in Headers */,
+				8062BDB6216E7BE100064884 /* DMPhotoTagProtocol.h in Headers */,
+				8062BDD5216E7BE100064884 /* DMPhotoView.h in Headers */,
+				8062BDD1216E7BE100064884 /* DMPhotoViewController.h in Headers */,
+				8062BDBF216E7BE100064884 /* DMPhotoPagesController.h in Headers */,
+				8062BDCA216E7BE100064884 /* DMPhotoCommentProtocol.h in Headers */,
+				8062BDBB216E7BE100064884 /* DMCommentsViewDelegate.h in Headers */,
+				8062BDBA216E7BE100064884 /* DMPhotoPagesNotifications.h in Headers */,
+				8062BDB9216E7BE100064884 /* DMCommentsTableView.h in Headers */,
+				8062BDCC216E7BE100064884 /* DMTagPopoverDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +373,24 @@
 			productReference = 8062BD87216E7B0C00064884 /* DMPhotoPages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8062BDE4216E846D00064884 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8062BDF8216E846F00064884 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				8062BDE1216E846D00064884 /* Sources */,
+				8062BDE2216E846D00064884 /* Frameworks */,
+				8062BDE3216E846D00064884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8062BE11216E89DB00064884 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 8062BDE5216E846D00064884 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +403,9 @@
 					8062BD86216E7B0C00064884 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					8062BDE4216E846D00064884 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = 8062BD81216E7B0C00064884 /* Build configuration list for PBXProject "DMPhotoPages" */;
@@ -104,6 +414,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8062BD7D216E7B0C00064884;
 			productRefGroup = 8062BD88216E7B0C00064884 /* Products */;
@@ -111,6 +422,7 @@
 			projectRoot = "";
 			targets = (
 				8062BD86216E7B0C00064884 /* DMPhotoPages */,
+				8062BDE4216E846D00064884 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +435,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8062BDE3216E846D00064884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8062BE0F216E861300064884 /* ViewController_iPad.xib in Resources */,
+				8062BE0A216E861300064884 /* ViewController_iPhone.xib in Resources */,
+				8062BE0E216E861300064884 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +452,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8062BDC5216E7BE100064884 /* DMPhotoPagesController.m in Sources */,
+				8062BDC8216E7BE100064884 /* DMPhotoView.m in Sources */,
+				8062BDC7216E7BE100064884 /* DMTagPopover.m in Sources */,
+				8062BDCE216E7BE100064884 /* DMPhotoToolbar.m in Sources */,
+				8062BDC2216E7BE100064884 /* DMPhotoPagesOperation.m in Sources */,
+				8062BDC1216E7BE100064884 /* DMCommentsView.m in Sources */,
+				8062BDCF216E7BE100064884 /* DMPhotoPagesState.m in Sources */,
+				8062BDD0216E7BE100064884 /* DMPhotoPagesFactory.m in Sources */,
+				8062BDBE216E7BE100064884 /* DMCaptionView.m in Sources */,
+				8062BDBD216E7BE100064884 /* DMPhotoViewController.m in Sources */,
+				8062BDD3216E7BE100064884 /* DMShadedView.m in Sources */,
+				8062BDC0216E7BE100064884 /* DMCommentCell.m in Sources */,
+				8062BDB5216E7BE100064884 /* DMCommentsTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8062BDE1216E846D00064884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8062BDF7216E846F00064884 /* main.m in Sources */,
+				8062BE0B216E861300064884 /* AppDelegate.m in Sources */,
+				8062BE08216E861300064884 /* DEMOTag.m in Sources */,
+				8062BE0C216E861300064884 /* ViewController.m in Sources */,
+				8062BE09216E861300064884 /* DEMOComment.m in Sources */,
+				8062BE0D216E861300064884 /* DEMOPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8062BE11216E89DB00064884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8062BD86216E7B0C00064884 /* DMPhotoPages */;
+			targetProxy = 8062BE10216E89DB00064884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8062BD8D216E7B0C00064884 /* Debug */ = {
@@ -188,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -302,6 +658,42 @@
 			};
 			name = Release;
 		};
+		8062BDF9216E846F00064884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 584E8BNX6Z;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicmdev.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8062BDFA216E846F00064884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 584E8BNX6Z;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dominicmdev.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +711,15 @@
 			buildConfigurations = (
 				8062BD90216E7B0C00064884 /* Debug */,
 				8062BD91216E7B0C00064884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8062BDF8216E846F00064884 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8062BDF9216E846F00064884 /* Debug */,
+				8062BDFA216E846F00064884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
